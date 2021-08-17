@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://v-room.com/user-guide/unity-setup/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Setting up Unity - V-ROOM Documentations</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">V-ROOM Documentations</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../about/" class="nav-link">About</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#setting-up-unity" class="nav-link">Setting up Unity</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#getting-started" class="nav-link">Getting Started</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#installation-walkthrough" class="nav-link">Installation Walkthrough</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#unity-license" class="nav-link">Unity License</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="setting-up-unity">Setting up Unity</h1>
+<p>Unity is a cross-platform game engine developed by Unity Technologies. The V-ROOM Team mainly uses this game engine to build the virtual environment for our virtual classrooms and more!</p>
+<hr />
+<h2 id="getting-started">Getting Started</h2>
+<p>To get started with Unity, you should install it on your machine. See below for the version that we are using! <br></p>
+<h5 id="download-unity-editor">Download Unity Editor</h5>
+<p><code>2019.8.4f1</code> &nbsp;&nbsp;&nbsp;&nbsp; <a href="https://unity3d.com/get-unity/download">Unity Hub</a> &nbsp;&nbsp; | &nbsp;&nbsp; <a href="https://download.unity3d.com/download_unity/9bc9d983d803/Windows64EditorInstaller/UnitySetup64-2018.4.8f1.exe">Editor (Win)</a>  &nbsp;&nbsp; | &nbsp;&nbsp; <a href="https://unity3d.com/get-unity/download?thank-you=update&amp;download_nid=62959&amp;os=Mac">Editor (Mac)</a></p>
+<p>...or <a href="unityhub://2018.4.8f1/9bc9d983d803"><code>click here</code></a> to install directly if you already have Unity Hub!</p>
+<hr />
+<h2 id="installation-walkthrough">Installation Walkthrough</h2>
+<p>There are two ways to install Unity on your machine: via <a href="#unity-hub"><code>Unity Hub</code></a> or  <a href="#standalone-installation"><code>standalone installation</code></a>.</p>
+<h4 id="unity-hub">Unity Hub</h4>
+<p>Installing through Unity Hub is the most recommended method as it is simple and straightforward! </p>
+<p>You need to make sure that you have Unity Hub installed already on your machine to proceed.</p>
+<p>Open Unity Hub &#8594;  Navigate to the <code>Installs</code> tab on the left &#8594;  Click on <code>Add</code> button to add the version of Unity Editor that you need.</p>
+<p><img alt="Unity Hub" src="../../img/unity-hub-install.png" /></p>
+<p>Select the version that you need (<code>2019.4.8f1</code>) &#8594;  Click <code>next</code>.</p>
+<p><img alt="Unity version select" src="../../img/unity-hub-versionselect.png" /></p>
+<p>Now select all the modules that you need.</p>
+<p>Since we are developing for both mobile and PC version, go ahead and check <code>Android Build Support</code>, <code>Universal Windows Platform Build Support</code>, and <code>Windows Build Support</code>.</p>
+<p>We highly recommend you to also install <code>Microsoft Visual Studio Community</code>. Visual Studio is an integrated development environment (IDE) that most people use when developing in Unity. It has been integrated directly into Unity to provide you with an easy and fast access when you need to code.</p>
+<table>
+    <tr>
+        <td><img src="../../img/unity-hub-modulesselect.png" /></td>
+        <td><img src="../../img/unity-hub-modulesselect2.png" /></td>
+    </tr>
+</table>
+
+<p>When you're done, click <code>next</code>.</p>
+<p>Check the box <code>I have read and agree...</code> and click <code>next</code>. (Feel free to read the EULA given in the link :D )</p>
+<p>Do the same thing with the Android EULA and then press <code>Done</code>.</p>
+<table>
+    <tr>
+        <td><img src="../../img/unity-hub-vsagreement.png"></td>
+        <td><img src="../../img/unity-hub-androidagreement.png"></td>
+    </tr>
+</table>
+
+<p>Wait until the installation finishes. This may take several minutes to several hours, depending on which module(s) you have chosen.</p>
+<p><img alt="unity-hub-installing" src="../../img/unity-hub-installing.png" /></p>
+<p>And... you're done!</p>
+<h4 id="standalone-installation">Standalone Installation</h4>
+<p>The standalone installation is typically used when you can't find the Unity version you need since it might already been replaced by a new version or when there are issues with installing using the Unity Hub. This includes downloading and executable installer (.exe), installing, and locating on Unity Hub.</p>
+<p>Unity Archive <a href="https://unity3d.com/get-unity/download/archive">Download</a>.</p>
+<p>You need to have <code>Unity Hub</code> already installed on your machine.</p>
+<p><img alt="unity-archive" src="../../img/unity-archive.png" />Download <code>Unity Installer</code> for the version you need (<code>2019.4.8f1</code>). </p>
+<p>If you only need the editor without any modules, download the <code>Unity Editor 64-bit</code>for Windows or <code>Unity Editor</code> for Mac.</p>
+<h5 id="unity-install-assistant">Unity Install Assistant</h5>
+<p><strong>Note: </strong> The Unity Installer <strong>requires</strong> the internet to download the editor files for installation. Make sure you have adequate internet connection.</p>
+<p>Locate the file you have downloaded and open it.</p>
+<p>The name should be something like <code>UnityDownloadAssistant-2019.4.8f1.exe</code>. </p>
+<p><img alt="unity-installer" src="../../img/unity-installer.png" /></p>
+<p>Click <code>next</code> &#8594;  check the <code>I accept ...</code>  &#8594;  <code>next</code>.</p>
+<table>
+    <tr>
+        <td><img src="..\..\img\unity-installer-01.png" alt="unity-installer-01" /></td>
+        <td><img src="..\..\img\unity-installer-02.png" alt="unity-installer-02" /></td>
+    </tr>
+</table>
+
+<p>Select all the modules you need - you can refer to the picture below.</p>
+<p><img alt="unity-installer-03" src="../../img/unity-installer-03.png" /></p>
+<p>Select where you want to download the installation files (temporary) and the install location. Click <code>next</code> when you're done.</p>
+<p><img alt="unity-installer-04" src="../../img/unity-installer-04.png" /></p>
+<p>Wait for the installation to finish and then click on <code>Finish</code>. You have successfully installed the Unity Editor.</p>
+<h5 id="unity-editor">Unity Editor</h5>
+<p>This one is very straightforward. </p>
+<p>After you download the installer, open it. The file should be named something like <code>UnitySetup64-2018.4.8f1.exe</code>.</p>
+<p><img alt="unity-editor-01" src="../../img/unity-editor-01.png" /></p>
+<p>Follow the instruction on screen. Choose where you want to install it. Once finished you have successfully installed the editor.</p>
+<h5 id="locating-on-unity-hub">Locating on Unity Hub</h5>
+<p>Now, you need to locate the newly installed editor on Unity Hub.</p>
+<p>Open Unity Hub and navigate to the <code>Installs</code> section &#8594; click on <code>Locate</code>. </p>
+<p><img alt="unity-hub-install" src="../../img/unity-hub-install.png" /></p>
+<p>Locate the <code>Unity.exe</code> in the location where you install the editor. It will be inside the <code>Editor</code> folder.</p>
+<p>Select <code>Unity.exe</code> and then click <code>Select Editor</code>.</p>
+<p><img alt="unity-hub-locate" src="../../img/unity-hub-locate.png" /></p>
+<p>You should now have the editor in your Unity Hub.</p>
+<hr />
+<h2 id="unity-license">Unity License</h2>
+<p>If you have not yet activated a license to use Unity, see below.</p>
+<p><strong>You need a Unity ID to manage your license.</strong> <a href="https://id.unity.com/en/" target="_blank"><code>Create Unity ID</code></a></p>
+<h4 id="activating-unity-license">Activating Unity License</h4>
+<p>Go to your profile on the top right corner &#8594; <code>Manage license</code></p>
+<p><img alt="Activate new license screen" src="../../img/unity-hub-license.png" /></p>
+<p>Click on <code>Activate New License</code> &#8594;  <code>Unity Personal</code> &#8594;  <code>I don't use Unity in...</code> &#8594;  <code>Done</code></p>
+<p><img alt="Unity personal license activation" src="../../img/unity-hub-licenseselect.png" /></p>
+<p><strong>You have successfully activated your new license!</strong></p>
+<hr />
+<p><a href="/../">Home</a></p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
