@@ -1,0 +1,5 @@
+site_name: V-ROOM Documentations
+site_url: https://v-room.com/
+nav:
+    - Home: index.md
+    - About: about.md
