@@ -43,6 +43,22 @@ Download SteamVR&trade;   here: [Steam link](https://store.steampowered.com/app/
 
 ---
 
+## Enabling VR Support
+
+Before you can use SteamVR on Unity, you will need to change some settings to enable VR features.
+
+1. Click on `File` &rightarrow;  `Build Settings`. <br>![enable-vr1](..\img\enable-vr1.png)
+2. Click `Player Settings`. <br>![enable-vr2](..\img\enable-vr2.png)
+3. Click on `Player` on the left bar &rightarrow;  `Computer Icon`. <br>![enable-vr3](..\img\enable-vr3.png)
+4. Navigate to `XR Settings`. <br>![enable-vr4](..\img\enable-vr4.png)
+5. Make sure that `Virtual Reality Supported` is **checked**. <br>![enable-vr5](..\img\enable-vr5.png)
+6. Under the `Virtual Reality SDKs`, make sure that `OpenVR` is there. <br>![enable-vr6](..\img\enable-vr6.png)
+	* If `OpenVR` is missing, click on the `+` icon and select `OpenVR`. <br>![enable-vr6a](..\img\enable-vr6a.png)
+7. Remove any other SDKs (e.g. Oculus) by selecting them and clicking the `-` icon. <br>![enable-vr7](..\img\enable-vr7.png)
+8. You can now close all the settings windows.
+
+---
+
 ## Basic Scene
 
 This section will teach you several SteamVR features that you would use when developing an app.
