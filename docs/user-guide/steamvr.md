@@ -43,5 +43,16 @@ Download SteamVR&trade;   here: [Steam link](https://store.steampowered.com/app/
 
 ---
 
+## Basic Scene
 
+This section will teach you several SteamVR features that you would use when developing an app.
+
+##### Adding a VR Player
+
+Adding a VR-mode player is as easy as drag and dropping a prefab to the scene - literally!
+
+1. Search for a `Player` prefab under SteamVR assets. <br>![steamvr-import-player1](..\img\steamvr-import-player1.png)
+2. Drag and drop to the the scene or the project hierarchy. <br>![steamvr-import-player2](..\img\steamvr-import-player2.png)
+3. Delete the `Main Camera` object from the scene hierarchy. <br>![steamvr-import-player3](..\img\steamvr-import-player3.png)
+4. 
 

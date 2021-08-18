@@ -18,56 +18,32 @@ Please download and install the following software to start developing.
 
 ## Documentations
 
-This section details
+This section details various setting up guides especially useful for first-time users or when trying to do complex operations.
 
 ### Software Setup
 
-[Unity](user-guide/unity-setup/index.html)
+[Unity Installation Guide](user-guide/unity-setup/index.html)
+
+### Unity Plugins
 
 [SteamVR Plugin](user-guide/steamvr/index.html)
 
 ---
 
-## Project Setup
+## Documentations layout
 
-This section will describe how to start a new project in Unity.
-
-##### Unity License
-
-If you haven't activated your Unity license, click [here](/user-guide/unity/#unity-license)
-
-#### Creating a new project
-
-1. Open Unity Hub - make sure you already have the editor installed! ![Unity Hub Editor View](E:\V-ROOM\Docs\V-ROOM_docs\docs\img\unity-hub-editor.png)
-
-
-
-
-## Documentations
-### Unity
-#### SteamVR
-
-
-#### ZFBrowser
-#### Photon Unity Networking (PUN)
-
-### Hardware
-#### HTC Vive
-#### Hololens
-#### Virtuix Omni Treadmill
-
-## Project layout
-
-    mkdocs.yml    			# The configuration file.
-    docs/
-        index.md  			# The documentation homepage.
-        about.md			# About us page.
-    user-guide/
-    	unity-setup.md		# Setting up Unity for first time users & Unity License activation.
-    	unity-project.md	# Setting up a project in Unity.
-    	steamvr.md			# Setting up SteamVR in Unity
-
-
-​    	
+```
+mkdocs.yml    			# The configuration file.
+docs/
+    index.md  			# The documentation homepage.
+    about.md			# About us page.
+    
+	user-guide/
+        unity-setup.md		# Unity installation & Unity License activation.
+        project-setup.md	# Setting up a project in Unity.
+        steamvr.md			# Setting up SteamVR in Unity.
 
     img/
+        logo/
+```
+
