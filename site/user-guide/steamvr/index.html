@@ -75,6 +75,10 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-level="2"><a href="#enabling-vr-support" class="nav-link">Enabling VR Support</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
             <li class="nav-item" data-level="2"><a href="#basic-scene" class="nav-link">Basic Scene</a>
               <ul class="nav flex-column">
               </ul>
@@ -131,6 +135,22 @@
 <li>You have successfully imported SteamVR Plugin to Unity! You should find that the following have been added to your Project Manager.<br><img alt="unity-assetstore-steamvr9" src="../../img/unity-assetstore-steamvr9.png" /></li>
 </ol>
 <hr />
+<h2 id="enabling-vr-support">Enabling VR Support</h2>
+<p>Before you can use SteamVR on Unity, you will need to change some settings to enable VR features.</p>
+<ol>
+<li>Click on <code>File</code> &rightarrow;  <code>Build Settings</code>. <br><img alt="enable-vr1" src="../../img/enable-vr1.png" /></li>
+<li>Click <code>Player Settings</code>. <br><img alt="enable-vr2" src="../../img/enable-vr2.png" /></li>
+<li>Click on <code>Player</code> on the left bar &rightarrow;  <code>Computer Icon</code>. <br><img alt="enable-vr3" src="../../img/enable-vr3.png" /></li>
+<li>Navigate to <code>XR Settings</code>. <br><img alt="enable-vr4" src="../../img/enable-vr4.png" /></li>
+<li>Make sure that <code>Virtual Reality Supported</code> is <strong>checked</strong>. <br><img alt="enable-vr5" src="../../img/enable-vr5.png" /></li>
+<li>Under the <code>Virtual Reality SDKs</code>, make sure that <code>OpenVR</code> is there. <br><img alt="enable-vr6" src="../../img/enable-vr6.png" /><ul>
+<li>If <code>OpenVR</code> is missing, click on the <code>+</code> icon and select <code>OpenVR</code>. <br><img alt="enable-vr6a" src="../../img/enable-vr6a.png" /></li>
+</ul>
+</li>
+<li>Remove any other SDKs (e.g. Oculus) by selecting them and clicking the <code>-</code> icon. <br><img alt="enable-vr7" src="../../img/enable-vr7.png" /></li>
+<li>You can now close all the settings windows.</li>
+</ol>
+<hr />
 <h2 id="basic-scene">Basic Scene</h2>
 <p>This section will teach you several SteamVR features that you would use when developing an app.</p>
 <h5 id="adding-a-vr-player">Adding a VR Player</h5>
@@ -139,7 +159,7 @@
 <li>Search for a <code>Player</code> prefab under SteamVR assets. <br><img alt="steamvr-import-player1" src="../../img/steamvr-import-player1.png" /></li>
 <li>Drag and drop to the the scene or the project hierarchy. <br><img alt="steamvr-import-player2" src="../../img/steamvr-import-player2.png" /></li>
 <li>Delete the <code>Main Camera</code> object from the scene hierarchy. <br><img alt="steamvr-import-player3" src="../../img/steamvr-import-player3.png" /></li>
-<li></li>
+<li>That's it!</li>
 </ol></div>
             </div>
         </div>
