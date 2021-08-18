@@ -1,1 +1,1 @@
-# Welcome to the official V-ROOM Documentations Repository
+# V-ROOM Documentations Repository
