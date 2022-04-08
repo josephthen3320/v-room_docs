@@ -10,7 +10,7 @@ Please download and install the following software to start developing.
 
 | Prerequisite | Version      | Link(s)                                                      |
 | ------------ | ------------ | ------------------------------------------------------------ |
-| Unity        | `2019.4.8f1` | [Install on Unity Hub](unityhub://2018.4.8f1/9bc9d983d803) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ***Recommended!***<br />[Download Unity Hub](https://unity3d.com/get-unity/download)<br />[[Win] Download Editor (.exe)](https://download.unity3d.com/download_unity/9bc9d983d803/Windows64EditorInstaller/UnitySetup64-2018.4.8f1.exe)<br />[[Mac] Download Editor (.dmg)](https://unity3d.com/get-unity/download?thank-you=update&download_nid=62959&os=Mac)<br /> |
+| Unity        | `2019.4.8f1` | [Install on Unity Hub](unityhub://2018.4.8f1/9bc9d983d803) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ***Recommended!***<br />[Download Unity Hub](https://unity3d.com/get-unity/download) | [Direct Link](https://public-cdn.cloud.unity3d.com/hub/prod/UnityHubSetup.exe) <br />[[Win] Download Editor (.exe)](https://download.unity3d.com/download_unity/9bc9d983d803/Windows64EditorInstaller/UnitySetup64-2018.4.8f1.exe)<br />[[Mac] Download Editor (.dmg)](https://unity3d.com/get-unity/download?thank-you=update&download_nid=62959&os=Mac)<br /> |
 | Steam        | `Latest`     | [Download Steam](https://store.steampowered.com/about/)      |
 | SteamVR      | `Latest`     | [Steam Link](https://store.steampowered.com/app/250820/SteamVR/) |
 
