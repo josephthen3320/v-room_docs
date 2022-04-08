@@ -10,7 +10,7 @@ Please download and install the following software to start developing.
 
 | Prerequisite | Version      | Link(s)                                                      |
 | ------------ | ------------ | ------------------------------------------------------------ |
-| Unity        | `2019.4.8f1` | [Install on Unity Hub](unityhub://2018.4.8f1/9bc9d983d803) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ***Recommended!***<br />[Download Unity Hub](https://unity3d.com/get-unity/download)<br />[[Win] Download Editor (.exe)](https://download.unity3d.com/download_unity/9bc9d983d803/Windows64EditorInstaller/UnitySetup64-2018.4.8f1.exe)<br />[[Mac] Download Editor (.dmg)](https://unity3d.com/get-unity/download?thank-you=update&download_nid=62959&os=Mac)<br /> |
+| Unity        | `2019.4.8f1` | [Install on Unity Hub](unityhub://2019.4.8f1/60781d942082) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ***Recommended!***<br />[Download Unity Hub](https://unity3d.com/get-unity/download)<br />[[Win] Download Editor (.exe)](https://download.unity3d.com/download_unity/60781d942082/Windows64EditorInstaller/UnitySetup64-2019.4.8f1.exe)<br />[[Mac] Download Editor (.dmg)](https://unity3d.com/get-unity/download?thank-you=update&download_nid=64071&os=Mac)<br /> |
 | Steam        | `Latest`     | [Download Steam](https://store.steampowered.com/about/)      |
 | SteamVR      | `Latest`     | [Steam Link](https://store.steampowered.com/app/250820/SteamVR/) |
 
@@ -26,7 +26,11 @@ This section details various setting up guides especially useful for first-time 
 
 ### Unity Plugins
 
-[SteamVR Plugin](user-guide/steamvr/index.html)
+| Plugin Name 		| Quick Link 	|
+| ----------- 		| ----------	|
+| SteamVR Plugin 	| [Setup Guide](user-guide/steamvr/index.html) \| [Local link](user-guide/steamvr) |
+| Embedded Browser 	| [Setup Guide](user-guide/zfbrowser/index.html) 	|
+
 
 ---
 
@@ -42,6 +46,7 @@ docs/
         unity-setup.md		# Unity installation & Unity License activation.
         project-setup.md	# Setting up a project in Unity.
         steamvr.md			# Setting up SteamVR in Unity.
+		zfbrowser.md		# Setting up ZF Browser (including for SteamVR)
 
     img/
         logo/

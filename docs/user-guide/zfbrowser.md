@@ -1,19 +1,18 @@
-# Setting up Unity
+# Setting up Embedded Browser (by Zen Fulcrum LLC)
 
-Unity is a cross-platform game engine developed by Unity Technologies. The V-ROOM Team mainly uses this game engine to build the virtual environment for our virtual classrooms and more!
+The Embedded Browser provides an easy solution to rendering webpages in your Unity project. It supports both PC and VR mode.
+
+[View in Asset Store](https://assetstore.unity.com/packages/tools/gui/embedded-browser-55459#)
 
 ---
 
 ## Getting Started
 
-To get started with Unity, you should install it on your machine. See below for the version that we are using! <br>
+To get started with Embedded Browser, you should install it on your machine. See below for the version that we are using! <br>
 
 ##### Download Unity Editor
 
-`2019.4.8f1` &nbsp;&nbsp;&nbsp;&nbsp; [Unity Hub](https://unity3d.com/get-unity/download) &nbsp;&nbsp; | 
-&nbsp;&nbsp; 64-bit
-[Editor (Win)](https://download.unity3d.com/download_unity/60781d942082/Windows64EditorInstaller/UnitySetup64-2019.4.8f1.exe)
-&nbsp;&nbsp; | &nbsp;&nbsp; [Editor (Mac)](https://unity3d.com/get-unity/download?thank-you=update&download_nid=64071&os=Mac)
+`2019.8.4f1` &nbsp;&nbsp;&nbsp;&nbsp; [Unity Hub](https://unity3d.com/get-unity/download) &nbsp;&nbsp; | &nbsp;&nbsp; [Editor (Win)](https://download.unity3d.com/download_unity/9bc9d983d803/Windows64EditorInstaller/UnitySetup64-2018.4.8f1.exe)  &nbsp;&nbsp; | &nbsp;&nbsp; [Editor (Mac)](https://unity3d.com/get-unity/download?thank-you=update&download_nid=62959&os=Mac)
 
 ...or [`click here`](unityhub://2019.4.8f1/60781d942082) to install directly if you already have Unity Hub!
 

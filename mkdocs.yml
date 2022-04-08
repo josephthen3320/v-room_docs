@@ -1,5 +1,23 @@
 site_name: V-ROOM Documentations
-site_url: https://v-room.com/
+site_url: https://*.github.io/v-room_docs/
+
+theme:
+    name: material
+    features:
+        - header.autohide
+        - navigation.instant
+        - navigation.tracking
+        - navigation.tabs
+        - navigation.sections
+        - navigation.expand
+        - navigation.indexes
+
 nav:
-    - Home: index.md
-    - About: about.md
+    - Home: 
+        - index.md
+    - About: 
+        - about/index.md
+    - User Guide:
+        - user-guide/index.md
+        - Setting up Unity: user-guide/unity-setup.md
+        - Setting up SteamVR: user-guide/steamvr.md
