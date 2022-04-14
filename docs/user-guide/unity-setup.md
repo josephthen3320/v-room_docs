@@ -1,4 +1,4 @@
-# Setting up Unity
+# Setting up :material-unity:  Unity
 
 Unity is a cross-platform game engine developed by Unity Technologies. The V-ROOM Team mainly uses this game engine to build the virtual environment for our virtual classrooms and more!
 
@@ -6,42 +6,48 @@ Unity is a cross-platform game engine developed by Unity Technologies. The V-ROO
 
 ## Getting Started
 
-To get started with Unity, you should install it on your machine. See below for the version that we are using! <br>
+To get started with Unity, you should install it on your machine. See below for the version that we are using! 
 
 ##### Download Unity Editor
 
-`2019.4.8f1` &nbsp;&nbsp;&nbsp;&nbsp; [Unity Hub](https://unity3d.com/get-unity/download) &nbsp;&nbsp; | 
-&nbsp;&nbsp; 64-bit
-[Editor (Win)](https://download.unity3d.com/download_unity/60781d942082/Windows64EditorInstaller/UnitySetup64-2019.4.8f1.exe)
-&nbsp;&nbsp; | &nbsp;&nbsp; [Editor (Mac)](https://unity3d.com/get-unity/download?thank-you=update&download_nid=64071&os=Mac)
+=== "`2019.4.8f1`"
+	Download version `2019.4.8f1`<br><br>[Get on :material-unity: hub](unityhub://2019.4.8f1/60781d942082){.md-button .md-button--primary}  [:material-microsoft-windows: 64-bit](https://download.unity3d.com/download_unity/60781d942082/Windows64EditorInstaller/UnitySetup64-2019.4.8f1.exe){.md-button}  [:material-apple:](https://unity3d.com/get-unity/download?thank-you=update&download_nid=64071&os=Mac){.md-button}
 
-...or [`click here`](unityhub://2019.4.8f1/60781d942082) to install directly if you already have Unity Hub!
+
+
+=== "`2019.4.31f`"
+	Download version `2019.4.31f1`<br><br>[Get on :material-unity: hub](unityhub://2019.4.31f1/bd5abf232a62){.md-button .md-button--primary} [:material-microsoft-windows: 64-bit](https://download.unity3d.com/download_unity/bd5abf232a62/Windows64EditorInstaller/UnitySetup64-2019.4.31f1.exe){.md-button} [:material-apple:](https://unity3d.com/get-unity/download?thank-you=update&download_nid=65206&os=Mac){.md-button}
+
+
+
+!!! Info
+    Since I'm using a :material-microsoft-windows: operating system, this tutorial will show the process in :material-microsoft-windows: computer. <br>If you are using :material-apple: , the process should be similar, but if there's anything you're not sure about, [Google](https://www.google.com/ncr) is your friend! :slightly_smiling_face:
 
 ---
 
 ## Installation Walkthrough
 
-There are two ways to install Unity on your machine: via [`Unity Hub`](#unity-hub) or  [`standalone installation`](#standalone-installation).
+There are two ways to install Unity on your machine: via [:material-link: Unity Hub](#unity-hub) or  [:material-link: Standalone install](#standalone-installation).
+
+---
 
 #### Unity Hub
 
 Installing through Unity Hub is the most recommended method as it is simple and straightforward! 
 
-You need to make sure that you have Unity Hub installed already on your machine to proceed.
+!!! info "You need to have Unity Hub installed to proceed."
 
-Open Unity Hub &#8594;  Navigate to the `Installs` tab on the left &#8594;  Click on `Add` button to add the version of Unity Editor that you need.
+!!! Warning "Unity Hub requires internet connection to download the Editor files for installation"
+
+Open Unity Hub :material-arrow-right:  Navigate to the `Installs` tab on the left :material-arrow-right:  Click on `Add` button to add the version of Unity Editor that you need.
 
 ![Unity Hub](..\img\unity-hub-install.png)
 
-Select the version that you need (`2019.4.8f1`) &#8594;  Click `next`.
+Select the version that you need (`2019.4.8f1`) :material-arrow-right:  Click `next`.
 
 ![Unity version select](..\img\unity-hub-versionselect.png)
 
 Now select all the modules that you need.
-
-Since we are developing for both mobile and PC version, go ahead and check `Android Build Support`, `Universal Windows Platform Build Support`, and `Windows Build Support`.
-
-We highly recommend you to also install `Microsoft Visual Studio Community`. Visual Studio is an integrated development environment (IDE) that most people use when developing in Unity. It has been integrated directly into Unity to provide you with an easy and fast access when you need to code.
 
 <table>
     <tr>
@@ -49,12 +55,25 @@ We highly recommend you to also install `Microsoft Visual Studio Community`. Vis
         <td><img src="../../img/unity-hub-modulesselect2.png" /></td>
     </tr>
 </table>
+<a name="modules-table"></a>  
+
+!!! info "See the table below to see which modules you need to develop each platform"
+   
+
+|                                  |        PC        |        VR        |     HoloLens     |     Android      |
+| -------------------------------- | :--------------: | :--------------: | :--------------: | :--------------: |
+| Windows Build Support            | :material-check: | :material-check: | :material-check: | :material-check: |
+| Universal Windows Build Platform |                  |                  | :material-check: |                  |
+| Android Build Support            |                  |                  |                  | :material-check: |
+
+!!! tip
+    We highly recommend you to also install `Microsoft Visual Studio Community`. <br>**Visual Studio** is an integrated development environment (IDE) that most people use when developing in Unity. It is natively supported in Unity to provide you with an easy and fast access when you need to code.
 
 When you're done, click `next`.
 
 Check the box `I have read and agree...` and click `next`. (Feel free to read the EULA given in the link :D )
 
-Do the same thing with the Android EULA and then press `Done`.
+Do the same thing with the Android EULA (if you choose to install it) and then press `Done`.
 
 <table>
     <tr>
@@ -64,29 +83,54 @@ Do the same thing with the Android EULA and then press `Done`.
 </table>
 
 
-Wait until the installation finishes. This may take several minutes to several hours, depending on which module(s) you have chosen.
+Wait until the installation finishes. This may take several minutes to several *hours*, depending on which module(s) you have chosen.
 
 ![unity-hub-installing](..\img\unity-hub-installing.png)
 
 And... you're done!
 
+!!! Tip "You can have multiple version of the Unity Editor installed at any time!"
 
+!!! Info "You can add modules from the editor by clicking on the :material-dots-vertical: button and select `Add Modules`"
+
+---
 
 #### Standalone Installation
 
-The standalone installation is typically used when you can't find the Unity version you need since it might already been replaced by a new version or when there are issues with installing using the Unity Hub. This includes downloading and executable installer (.exe), installing, and locating on Unity Hub.
+The standalone installation is typically used when you can't find the Unity version you need since it might already been replaced by a new version or when there are issues with installing using the Unity Hub. This includes:
 
-Unity Archive [Download](https://unity3d.com/get-unity/download/archive).
+* Going to :material-unity: Archive
+* Downloading an executable installer .exe (:material-microsoft-windows:) / .dmg (:material-apple:)
+* Installing Unity Editor
+* Locating the editor on Unity Hub
 
-You need to have `Unity Hub` already installed on your machine.
+!!! Note
+    You still need to have `Unity Hub` already installed on your machine, since we're going to locate the installed editor on the Hub.
+
+!!! Warning "Important Note"
+    Whenever possible, use Unity Hub to install the Editor. Standalone installation may be confusing for most users and you might select something you're not supposed to.
+
+!!! question "Did you know?"
+    You can select :fontawesome-solid-download: **Unity Hub** to install the archived versions on Unity Hub instead of downloading a separate executable installer. It's less hassle, really!
+
+---
+
+##### Visit the Unity Archive
+
+So you have decided to standalone install Unity Editor, great! <br>The first thing to do is to go to the :material-unity: archive and select your :material-unity: version.
+
+[Visit Unity Archive :material-arrow-top-right:](https://unity3d.com/get-unity/download/archive){.md-button}
 
 ![unity-archive](..\img\unity-archive.png)Download `Unity Installer` for the version you need (`2019.4.8f1`). 
 
 If you only need the editor without any modules, download the `Unity Editor 64-bit`for Windows or `Unity Editor` for Mac.
 
+---
+
 ##### Unity Install Assistant
 
-**Note: ** The Unity Installer **requires** the internet to download the editor files for installation. Make sure you have adequate internet connection.
+!!! Warning "Important Note"
+    The Unity Download Assistant **requires** internet connection to download the editor files for installation. Make sure you have a working internet connection.
 
 Locate the file you have downloaded and open it.
 
@@ -94,7 +138,7 @@ The name should be something like `UnityDownloadAssistant-2019.4.8f1.exe`.
 
 ![unity-installer](..\img\unity-installer.png)
 
-Click `next` &#8594;  check the `I accept ...`  &#8594;  `next`.
+Click `next` :material-arrow-right:  check the `I accept ...`  :material-arrow-right:  `next`.
 
 <table>
     <tr>
@@ -103,7 +147,7 @@ Click `next` &#8594;  check the `I accept ...`  &#8594;  `next`.
     </tr>
 </table>
 
-Select all the modules you need - you can refer to the picture below.
+Select all the modules you need - you can refer to the picture below or check the [:material-link: table](#modules-table).
 
 ![unity-installer-03](..\img\unity-installer-03.png)
 
@@ -113,7 +157,9 @@ Select where you want to download the installation files (temporary) and the ins
 
 Wait for the installation to finish and then click on `Finish`. You have successfully installed the Unity Editor.
 
-##### Unity Editor
+---
+
+##### Unity Editor Offline Installer
 
 This one is very straightforward. 
 
@@ -123,11 +169,13 @@ After you download the installer, open it. The file should be named something li
 
 Follow the instruction on screen. Choose where you want to install it. Once finished you have successfully installed the editor.
 
+---
+
 ##### Locating on Unity Hub
 
 Now, you need to locate the newly installed editor on Unity Hub.
 
-Open Unity Hub and navigate to the `Installs` section &#8594; click on `Locate`. 
+Open Unity Hub and navigate to the `Installs` section :material-arrow-right: click on `Locate`. 
 
 ![unity-hub-install](..\img\unity-hub-install.png)
 
@@ -145,17 +193,16 @@ You should now have the editor in your Unity Hub.
 
 If you have not yet activated a license to use Unity, see below.
 
-**You need a Unity ID to manage your license.** <a href="https://id.unity.com/en/" target="_blank">`Create Unity ID`</a>
-
-[Create Unity ID]: https://id.unity.com/en/	"Create Unity ID"
+!!! Danger "Note"
+    You need a Unity ID to manage your license. <a href="https://id.unity.com/en/" target="_blank">`Create Unity ID`</a>
 
 #### Activating Unity License
 
-Go to your profile on the top right corner &#8594; `Manage license`
+Go to your profile on the top right corner :material-arrow-right: `Manage license`
 
 ![Activate new license screen](..\img\unity-hub-license.png)
 
-Click on `Activate New License` &#8594;  `Unity Personal` &#8594;  `I don't use Unity in...` &#8594;  `Done`
+Click on `Activate New License` :material-arrow-right:  `Unity Personal` :material-arrow-right:  `I don't use Unity in...` :material-arrow-right:  `Done`
 
 ![Unity personal license activation](..\img\unity-hub-licenseselect.png)
 

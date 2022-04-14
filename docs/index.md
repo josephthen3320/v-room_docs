@@ -6,13 +6,18 @@ Find how to setup various things needed to work with the V-ROOM Project Team.
 
 ## Project prerequisites
 
+
 Please download and install the following software to start developing.
 
 | Prerequisite | Version      | Link(s)                                                      |
 | ------------ | ------------ | ------------------------------------------------------------ |
-| Unity        | `2019.4.8f1` | [Install on Unity Hub](unityhub://2019.4.8f1/60781d942082) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ***Recommended!***<br />[Download Unity Hub](https://unity3d.com/get-unity/download)<br />[[Win] Download Editor (.exe)](https://download.unity3d.com/download_unity/60781d942082/Windows64EditorInstaller/UnitySetup64-2019.4.8f1.exe)<br />[[Mac] Download Editor (.dmg)](https://unity3d.com/get-unity/download?thank-you=update&download_nid=64071&os=Mac)<br /> |
-| Steam        | `Latest`     | [Download Steam](https://store.steampowered.com/about/)      |
-| SteamVR      | `Latest`     | [Steam Link](https://store.steampowered.com/app/250820/SteamVR/) |
+| Unity Hub    | `Latest`     | [:material-microsoft-windows: Download](https://public-cdn.cloud.unity3d.com/hub/prod/UnityHubSetup.exe){ .md-button .md-button--primary} [:material-apple: Download](https://public-cdn.cloud.unity3d.com/hub/prod/UnityHubSetup.dmg){.md-button} |
+| Unity Editor | `2019.4.8f1` | [Unity Hub :material-download:](unityhub://2019.4.8f1/60781d942082){.md-button .md-button--primary} [:material-microsoft-windows:](https://download.unity3d.com/download_unity/60781d942082/Windows64EditorInstaller/UnitySetup64-2019.4.8f1.exe){.md-button} [:material-apple:](https://unity3d.com/get-unity/download?thank-you=update&download_nid=64071&os=Mac){.md-button} |
+| Steam        | `Latest`     | [Get Steam :material-download:](https://store.steampowered.com/about/){.md-button .md-button--primary} [:material-microsoft-windows:](https://cdn.cloudflare.steamstatic.com/client/installer/SteamSetup.exe){.md-button} [:material-apple:](https://cdn.cloudflare.steamstatic.com/client/installer/steam.dmg){.md-button} |
+| SteamVR      | `Latest`     | [:material-steam: Get on Steam](steam://run/250820){.md-button .md-button--primary} [:octicons-link-external-16: View on Web]([SteamVR on Steam (steampowered.com)](https://store.steampowered.com/app/250820/SteamVR/)){.md-button} |
+
+!!! important
+    You can't start working until you have all of these software!
 
 ---
 
@@ -36,10 +41,14 @@ This section details various setting up guides especially useful for first-time 
 
 ## Documentations layout
 
+??? hint "You don't need to worry about this section!"
+    This is for the documentations maintainer to see the layout of this website.
+
 ```
-mkdocs.yml    			# The configuration file.
+mkdocs.yml				# The configuration file.
+README.md				# The README shown on GitHub
 docs/
-    index.md  			# The documentation homepage.
+    index.md			# The documentation homepage.
     about.md			# About us page.
     
 	user-guide/
@@ -48,7 +57,7 @@ docs/
         steamvr.md			# Setting up SteamVR in Unity.
 		zfbrowser.md		# Setting up ZF Browser (including for SteamVR)
 
-    img/
-        logo/
+    img/				# Contains various images used in the site
+        logo/			# Logo images
 ```
 

@@ -1,18 +1,18 @@
-# Setting up SteamVR
+# Setting up :material-steam: SteamVR
 
 [![steamvr](..\img\logo\steamvr_header.jpg)](https://store.steampowered.com/app/250820/SteamVR/)
 
-SteamVR&trade;  is the ultimate tool for experiencing VR content on the hardware of your choice. 
+:material-steam: SteamVR&trade;  is the ultimate tool for experiencing VR content on the hardware of your choice. 
 
-Full documentations [here](https://valvesoftware.github.io/steamvr_unity_plugin/).
+[View Full Documentations :material-arrow-top-right:](https://valvesoftware.github.io/steamvr_unity_plugin/){.md-button}
 
 ---
 
 ## Quickstart
 
-You will need to have SteamVR&trade;   installed through Steam and a SteamVR&trade;  -compatible headset. 
+You will need to have SteamVR&trade;   installed through :material-steam: Steam and a SteamVR&trade;  -compatible headset. 
 
-Download SteamVR&trade;   here: [Steam link](https://store.steampowered.com/app/250820/SteamVR/)
+[:material-steam: Get SteamVR on Steam](steam://run/250820){.md-button .md-button--primary} [View on Web :octicons-link-external-16:](https://store.steampowered.com/app/250820/SteamVR/){.md-button}
 
 ---
 
@@ -24,21 +24,37 @@ Download SteamVR&trade;   here: [Steam link](https://store.steampowered.com/app/
 
 3. Scroll down and find the SteamVR Plugin.![unity-assetstore-steamvr](..\img\unity-assetstore-steamvr.png)
 
-4. To import the SteamVR Plugin:
+    !!! info
+        SteamVR is free on the Unity Asset Store. Make sure you select the correct one!
 
-    * If this is your first time importing, click on the blue `Download` button and wait. 
+4. To import the SteamVR Plugin:
 
     * Click on the blue `Import` button.
 
-      ![unity-assetstore-steamvr2](..\img\unity-assetstore-steamvr2.png)
+    !!! Important "Note"
+        If this is your first time importing, you need to first `Download` before importing.
+
+    ![unity-assetstore-steamvr2](..\img\unity-assetstore-steamvr2.png)
+
+    
 
 5. Wait for the dialog to finish.<br> ![wait for dialogue](..\img\unity-assetstore-steamvr3.png)
 
 6. Click the `All` button at the bottom left corner &rightarrow;  `Import`.<br>![click "all" then "import"](..\img\unity-assetstore-steamvr4.png)
+
 7. If this is your first time setup, this may pop up. Click on `Legacy VR`.<br>![unity-assetstore-steamvr5](..\img\unity-assetstore-steamvr5.png)
+
+
+    
+    !!! Info
+        You could also use UnityXR, but there will be several bugs related to it. We recommend sticking to Legacy mode until it is made obsolete for real
+
 8. Since we are developing for VR, click on `Yes`.<br>![unity-assetstore-steamvr6](..\img\unity-assetstore-steamvr6.png)
+
 9. Again, first time setup, click `Accept All`. <br>![unity-assetstore-steamvr7](..\img\unity-assetstore-steamvr7.png)
+
 10. Click `Ok`. <br>![unity-assetstore-steamvr8](..\img\unity-assetstore-steamvr8.png)
+
 11. You have successfully imported SteamVR Plugin to Unity! You should find that the following have been added to your Project Manager.<br>![unity-assetstore-steamvr9](..\img\unity-assetstore-steamvr9.png)
 
 ---

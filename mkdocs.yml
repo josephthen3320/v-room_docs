@@ -1,5 +1,6 @@
 site_name: V-ROOM Documentations
 site_url: https://*.github.io/v-room_docs/
+copyright: Copyright &copy; 2020 - 2022 Joseph Then for The V-ROOM Project
 
 theme:
     name: material
@@ -11,6 +12,8 @@ theme:
         - navigation.sections
         - navigation.expand
         - navigation.indexes
+        
+    favicon: img/logo/favicon.png
 
 nav:
     - Home: 
@@ -21,3 +24,20 @@ nav:
         - user-guide/index.md
         - Setting up Unity: user-guide/unity-setup.md
         - Setting up SteamVR: user-guide/steamvr.md
+
+
+markdown_extensions:
+    - attr_list
+    - md_in_html
+    - admonition
+    - pymdownx.details
+    - pymdownx.superfences
+    - pymdownx.tabbed:
+        alternate_style: true
+    - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+        
+        
+extra:
+  generator: true
