@@ -1,6 +1,6 @@
 # Setting up :material-steam: SteamVR
 
-[![steamvr](..\img\logo\steamvr_header.jpg)](https://store.steampowered.com/app/250820/SteamVR/)
+[![steamvr](..\..\img\logo\steamvr_header.jpg)](https://store.steampowered.com/app/250820/SteamVR/)
 
 :material-steam: SteamVR&trade;  is the ultimate tool for experiencing VR content on the hardware of your choice. 
 

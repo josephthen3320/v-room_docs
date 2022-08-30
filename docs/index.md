@@ -31,10 +31,11 @@ This section details various setting up guides especially useful for first-time 
 
 ### Unity Plugins
 
-| Plugin Name 		| Quick Link 	|
-| ----------- 		| ----------	|
-| SteamVR Plugin 	| [Setup Guide](user-guide/steamvr/index.html) \| [Local link](user-guide/steamvr) |
-| Embedded Browser 	| [Setup Guide](user-guide/zfbrowser/index.html) 	|
+| Plugin Name 			| Quick Link 	|
+| ----------- 			| ----------	|
+| SteamVR Plugin 		| [Setup Guide](user-guide/steamvr/index.html) \| [Local link](user-guide/steamvr) |
+| Embedded Browser 		| [Setup Guide](user-guide/zfbrowser/index.html) 	|
+| Mixed Reality Toolkit | [Setup Guide](user-guide/MRTK/index.html) 		|
 
 
 ---
