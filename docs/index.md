@@ -33,7 +33,9 @@ This section details various setting up guides especially useful for first-time 
 
 ### Development Guides
 
-[:material-virtual-reality: Virtual Reality](){.md-button .md-button--primary}  [:material-augmented-reality: Augmented Reality](){.md-button .md-button--primary}  [:material-mixed-reality: Mixed Reality](target-platform/mixed-reality.md){.md-button .md-button--primary}
+[:material-virtual-reality: Virtual Reality](target-platform/virtual-reality.md){.md-button .md-button--primary}  
+[:material-augmented-reality: Augmented Reality](target-platform/augmented-reality.md){.md-button .md-button--primary}  
+[:material-mixed-reality: Mixed Reality](target-platform/mixed-reality.md){.md-button .md-button--primary}
 
 #### Virtual Reality (VR)
 #### Augmented Reality (AR)
