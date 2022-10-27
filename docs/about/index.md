@@ -49,14 +49,16 @@
 | Appointment | Team Member(s) |
 | ----------- | -------------- |
 | Project Investigator (PI) | Dr Sannia Mareta | 
-| Student Interns | Alan Wang <br> William Widjaja <br> Joseph Thenara (soon gone) <br> I forgot who else--to be updated |
+| Student Coordinator | Alan Wang <br> William Widjaja <br> Joseph Thenara |
+| Student Interns | Yiyun Zhang (Cloudia) <br> J. Ahren O.D.G. Brito III <br> Linjing Sun <br> Wenhan Liu <br> Stephanie Immanuella <br> Zhehan Jiang <br> Yik Lau  |
 
 ### V-ROOM 1.0
 
 | Appointment                                                 | Team Member(s)                                               |
 | ----------------------------------------------------------- | ------------------------------------------------------------ |
 | Project Leader                                              | Dr Sannia Mareta                                             |
-| Student Interns                                             | Rafael Rivero<br>Liam Lim Kwong Hung-Lo-Sang<br>Joseph M. Thenara<br>William Widjaja<br>Xiaofan Shen &nbsp;&nbsp;&nbsp; (Sylfan) <br>Yiyun Zhang &nbsp;&nbsp;&nbsp;&nbsp; (Cloudia)<br>Ivan C. Halim <br>Yizirui Fang &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (George) <br>Alan Wang <br>Gabrielle S. Hadian<br>Kevin Ferdinand<br>Taewhan Kim &nbsp;&nbsp;&nbsp; (Alex)<br>Yilin Li &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Leo)<br>Runze Hu<br>Xinran Jiang &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Sharon)<br> |
+| Student Coordinators 										  | Rafael Rivero <br> Joseph M. Thenara <br> William Widjaja    | 
+| Student Interns                                             | Liam Lim Kwong Hung-Lo-Sang<br>Xiaofan Shen &nbsp;&nbsp;&nbsp; (Sylfan) <br>Yiyun Zhang &nbsp;&nbsp;&nbsp;&nbsp; (Cloudia)<br>Ivan C. Halim <br>Yizirui Fang &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (George) <br>Alan Wang <br>Gabrielle S. Hadian<br>Kevin Ferdinand<br>Taewhan Kim &nbsp;&nbsp;&nbsp; (Alex)<br>Yilin Li &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Leo)<br>Runze Hu<br>Xinran Jiang &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Sharon)<br> |
 
 [//]: # (Co-Investigators &#38; <br>Staff Consultation Group Members)
 [//]: # (Ms. Maxine Mou<br>Ms. Holly Nelson<br>Dr Mia Tedjosaputro<br>Dr Fui-Theng Leow<br>Dr Chiew-Foong Kwong<br>Dr Dave Towey<br>Dr Christian Mueller<br>Dr Dunant Halim<br>Ms Sherry Wei)
