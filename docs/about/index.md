@@ -46,11 +46,11 @@
 ## Our Family
 
 ### V-ROOM 2.0
-| Appointment | Team Member(s) |
-| ----------- | -------------- |
-| Project Investigator (PI) | Dr Sannia Mareta | 
-| Student Coordinator | Alan Wang <br> William Widjaja <br> Joseph Thenara |
-| Student Interns | Yiyun Zhang (Cloudia) <br> J. Ahren O.D.G. Brito III <br> Linjing Sun <br> Wenhan Liu <br> Stephanie Immanuella <br> Zhehan Jiang <br> Yik Lau  |
+| Appointment                       | Team Member(s)                                             |
+| --------------------------------- | ---------------------------------------------------------- |
+| Project Investigator (PI)         | Dr Sannia Mareta                                           | 
+| Student Coordinators              | Alan Wang <br> William Widjaja <br> Joseph Thenara         |
+| Student Interns                   | Yiyun Zhang (Cloudia) <br> J. Ahren O.D.G. Brito III <br> Linjing Sun <br> Wenhan Liu <br> Stephanie Immanuella <br> Zhehan Jiang <br> Yik Lau  |
 
 ### V-ROOM 1.0
 
