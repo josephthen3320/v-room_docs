@@ -45,6 +45,14 @@
 
 ## Our Family
 
+### V-ROOM 2.0
+| Appointment | Team Member(s) |
+| ----------- | -------------- |
+| Project Investigator (PI) | Dr Sannia Mareta | 
+| Student Interns | Alan Wang <br> William Widjaja <br> Joseph Thenara (soon gone) <br> I forgot who else--to be updated |
+
+### V-ROOM 1.0
+
 | Appointment                                                 | Team Member(s)                                               |
 | ----------------------------------------------------------- | ------------------------------------------------------------ |
 | Project Leader                                              | Dr Sannia Mareta                                             |
